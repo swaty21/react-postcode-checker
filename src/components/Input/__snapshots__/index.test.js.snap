@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render Input Component 1`] = `
+<div>
+  <input
+    data-testid="submit"
+    value="G41"
+  />
+</div>
+`;

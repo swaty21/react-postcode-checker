@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PostCodeChecker should call the API to show postcode is invalid 1`] = `
+<div>
+  <h3>
+     Please Enter Your Postcode
+  </h3>
+  <input
+    data-testid="input-postcode"
+    value="G41 1AL"
+  />
+  <button
+    data-testid="submit"
+    name="Submit"
+    type="Submit"
+  >
+    Submit
+     
+  </button>
+  <p
+    data-testid="notfound-postcode-msg"
+  >
+    Sorry We dont support the postcode.
+  </p>
+</div>
+`;
+
+exports[`PostCodeChecker should render PostCodeChecker component 1`] = `
+<div>
+  <h3>
+     Please Enter Your Postcode
+  </h3>
+  <input
+    data-testid="input-postcode"
+    value=""
+  />
+  <button
+    data-testid="submit"
+    name="Submit"
+    type="Submit"
+  >
+    Submit
+     
+  </button>
+</div>
+`;
+
+exports[`PostCodeChecker should show success msg when valid  lsoa 1`] = `
+<div>
+  <h3>
+     Please Enter Your Postcode
+  </h3>
+  <input
+    data-testid="input-postcode"
+    value="G41 1AM"
+  />
+  <button
+    data-testid="submit"
+    name="Submit"
+    type="Submit"
+  >
+    Submit
+     
+  </button>
+  <p
+    data-testid="success-postcode-msg"
+  >
+    We support the postcode.
+  </p>
+</div>
+`;
+
+exports[`PostCodeChecker should show success msg when valid postCode 1`] = `
+<div>
+  <h3>
+     Please Enter Your Postcode
+  </h3>
+  <input
+    data-testid="input-postcode"
+    value="SE1 7QD"
+  />
+  <button
+    data-testid="submit"
+    name="Submit"
+    type="Submit"
+  >
+    Submit
+     
+  </button>
+  <p
+    data-testid="success-postcode-msg"
+  >
+    We support the postcode.
+  </p>
+</div>
+`;
