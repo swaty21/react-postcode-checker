@@ -25,7 +25,11 @@ describe('PostCodeChecker', () => {
     const { container, getByTestId } = render(<PostCodeChecker />);
     const postCodeDetails = {
       data: {
-        result: { postcode: 'G41 1AL', lsoa: 'Pollokshields East - 02', msoa: 'Pollokshields East' }
+        result: {
+          postcode: 'G41 1AL',
+          lsoa: 'Pollokshields East - 02',
+          msoa: 'Pollokshields East'
+        }
       }
     };
     axios.get.mockResolvedValueOnce(postCodeDetails);
@@ -39,7 +43,11 @@ describe('PostCodeChecker', () => {
     const { container, getByTestId } = render(<PostCodeChecker />);
     const postCodeDetails = {
       data: {
-        result: { postcode: 'G41 1AM', lsoa: 'Southwark East - 02', msoa: 'Pollokshields East' }
+        result: {
+          postcode: 'G41 1AM',
+          lsoa: 'Southwark East - 02',
+          msoa: 'Pollokshields East'
+        }
       }
     };
     axios.get.mockResolvedValueOnce(postCodeDetails);
