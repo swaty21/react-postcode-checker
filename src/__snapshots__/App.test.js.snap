@@ -2,22 +2,20 @@
 
 exports[`App Component should have hello world message 1`] = `
 <div>
-  <div>
-    <h3>
-       Please Enter Your Postcode
-    </h3>
-    <input
-      data-testid="input-postcode"
-      value=""
-    />
-    <button
-      data-testid="submit"
-      name="Submit"
-      type="Submit"
-    >
-      Submit
-       
-    </button>
-  </div>
+  <h3>
+     Please Enter Your Postcode
+  </h3>
+  <input
+    data-testid="input-postcode"
+    value=""
+  />
+  <button
+    data-testid="submit"
+    name="Submit"
+    type="Submit"
+  >
+    Submit
+     
+  </button>
 </div>
 `;
